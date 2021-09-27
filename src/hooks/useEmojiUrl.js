@@ -6,7 +6,7 @@ const useEmojiUrl = unified => {
     state: { emojiUrl },
   } = useContext(PickerContext);
 
-  return unified ? `${emojiUrl}/${unified}.png` : emojiUrl;
+  return unified ? `${emojiUrl}/${unified}.svg` : emojiUrl;
 };
 
 export default useEmojiUrl;
